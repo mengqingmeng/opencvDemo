@@ -26,6 +26,7 @@
 		3E83A9C81F055AB2009E598C /* libopencv_superres.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83A9B61F055AB2009E598C /* libopencv_superres.2.4.13.dylib */; };
 		3E83A9C91F055AB2009E598C /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83A9B71F055AB2009E598C /* libopencv_video.2.4.13.dylib */; };
 		3E83A9CA1F055AB2009E598C /* libopencv_videostab.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83A9B81F055AB2009E598C /* libopencv_videostab.2.4.13.dylib */; };
+		3ED42F701F05F67B006DFA6B /* how_to_scan_images.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ED42F6F1F05F67B006DFA6B /* how_to_scan_images.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		3E83A9B61F055AB2009E598C /* libopencv_superres.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_superres.2.4.13.dylib; sourceTree = "<group>"; };
 		3E83A9B71F055AB2009E598C /* libopencv_video.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.2.4.13.dylib; sourceTree = "<group>"; };
 		3E83A9B81F055AB2009E598C /* libopencv_videostab.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.2.4.13.dylib; sourceTree = "<group>"; };
+		3ED42F6F1F05F67B006DFA6B /* how_to_scan_images.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = how_to_scan_images.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		3E83A96C1F0548CD009E598C /* opencvDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3ED42F6F1F05F67B006DFA6B /* how_to_scan_images.cpp */,
 				3E83A96D1F0548CD009E598C /* main.cpp */,
 			);
 			path = opencvDemo;
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED42F701F05F67B006DFA6B /* how_to_scan_images.cpp in Sources */,
 				3E83A96E1F0548CD009E598C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
